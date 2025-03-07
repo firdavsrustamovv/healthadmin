@@ -1,14 +1,7 @@
-import React from 'react'
+import Dashboard from "./components/Dashboard";
 
-type Props = {}
-
-const App = (props: Props) => {
-  return (
-    <div>App
-      Salom
-    </div>
-
-  )
+function App() {
+  return <Dashboard />;
 }
 
-export default App
+export default App;
